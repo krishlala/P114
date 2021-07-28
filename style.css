@@ -1,0 +1,23 @@
+h3 
+{
+    font-size: 23px !important;
+}
+
+.btn-success:hover
+{
+    background-color: aqua;
+}
+
+canvas
+{
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes canvas
+{
+    from{box-shadow: 3px 3px 50px rgb(0, 110, 255);}
+    to{box-shadow: 3px 3px 50px rgb(89, 0, 255);}
+}
