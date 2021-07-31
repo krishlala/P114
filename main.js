@@ -25,11 +25,17 @@ function modelLoaded() {
     console.log('PoseNet Is Initialized');
 }
 
+var noseX =0;
+var noseY =0;
+
 function gotPoses(results) {
     if (results.length > 0)
     {
         console.log(results);
         console.log("nose x = " + results[0].pose.nose.x);
         console.log("nose y = " + results[0].pose.nose.y);
+        
+        noseX = results[0].pose.nose.x;
+        noseY = results[0].pose.nose.y;
     }
 }
