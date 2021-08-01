@@ -1,6 +1,6 @@
 img = 0;
 function preload() {
-    img = img.preload('https://i.postimg.cc/FRpT7v8Q/mustache.jpg');
+    img = loadImage('https://i.postimg.cc/FRpT7v8Q/mustache.jpg');
 }
 
 function draw() {
