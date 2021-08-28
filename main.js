@@ -43,4 +43,12 @@ function gotPoses(results) {
 
 function cam_off() {
     video.remove();
+    document.getElementById("off").style.display="none";
+    document.getElementById("on").style.display="inline-block";
+}
+
+function cam_on() {
+    setup();
+    document.getElementById("on").style.display="none";
+    document.getElementById("off").style.display="inline-block";
 }
