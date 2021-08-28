@@ -40,3 +40,7 @@ function gotPoses(results) {
         console.log("nose y = " + noseY);
     }
 }
+
+function cam_off() {
+    video.hide();
+}
