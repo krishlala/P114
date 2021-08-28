@@ -5,7 +5,7 @@ h3
 
 .btn-success:hover
 {
-    background-color: rgb(0, 0, 139);
+    background-color: aqua;
 }
 
 canvas
@@ -20,4 +20,8 @@ canvas
 {
     from{box-shadow: 3px 3px 50px rgb(0, 110, 255);}
     to{box-shadow: 3px 3px 50px rgb(89, 0, 255);}
+}
+
+#on {
+    display: none;
 }
