@@ -42,5 +42,5 @@ function gotPoses(results) {
 }
 
 function cam_off() {
-    video.hide();
+    video.remove();
 }
