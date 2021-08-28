@@ -1,31 +1,37 @@
+
 <html>
 
-<head>
-  <title>Mustache Filter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-</head>
-
-<body background="https://cdn5.vectorstock.com/i/1000x1000/19/19/hand-drawn-mustache-icon-doodle-style-vector-32221919.jpg">
-  <center>
-    <h3 class="heading btn btn-info">Mustache Filter</h3>
-    <br>
-    <br>
-    <button class="btn btn-success" onclick="take_snapshot()">Take Snapshot</button>
+    <head>
+      <title>Mustache Filter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
-    <button class="text-danger" onclick="cam_off()">Turn off Camera</button>
-  </center>
-  
-<script src="main.js"></script>
-</body>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    
+    <body background="https://cdn5.vectorstock.com/i/1000x1000/19/19/hand-drawn-mustache-icon-doodle-style-vector-32221919.jpg">
+      <center>
+        <h3 class="heading btn btn-info">Mustache Filter</h3>
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="take_snapshot()">Take Snapshot</button>
+        
+       
+        <button class="btn btn-danger" id="off" onclick="cam_off()">Turn off Camera</button>
 
-</html>
+        <button class="btn btn-info" id="on" onclick="cam_on()">Turn on Camera</button>
 
-
+      </center>
+      
+    <script src="main.js"></script>
+    </body>
+    
+    </html>
+    
+    
+    
